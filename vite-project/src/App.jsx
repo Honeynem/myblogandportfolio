@@ -1,4 +1,4 @@
-import { About, Home, Navbar, SocialLinks } from "./components";
+import { About, Home, Navbar, Portfolio, SocialLinks } from "./components";
 
 export default function App() {
   return (
@@ -6,6 +6,7 @@ export default function App() {
       <Navbar />
       <Home />
       <About />
+      <Portfolio />
 
       <SocialLinks />
     </div>
