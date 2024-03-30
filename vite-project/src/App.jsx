@@ -1,4 +1,4 @@
-import { About, Home, Navbar, Portfolio, SocialLinks } from "./components";
+import { About, Experience, Home, Navbar, Portfolio, SocialLinks } from "./components";
 
 export default function App() {
   return (
@@ -7,6 +7,7 @@ export default function App() {
       <Home />
       <About />
       <Portfolio />
+      <Experience />
 
       <SocialLinks />
     </div>
