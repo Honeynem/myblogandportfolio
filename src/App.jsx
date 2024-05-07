@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Home, Navbar, Portfolio, SocialLinks } from "./components";
+import { About, Blog, Contact, Experience, Home, Navbar, Portfolio, SocialLinks } from "./components";
 
 export default function App() {
   return (
@@ -9,6 +9,7 @@ export default function App() {
       <Portfolio />
       <Experience />
       <Contact />
+      {/* <Blog /> */}
 
       <SocialLinks />
     </div>

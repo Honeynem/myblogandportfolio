@@ -5,5 +5,6 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import Blog from "./Blog";
 
-export {Navbar, Home, SocialLinks, About, Portfolio, Experience, Contact}
+export {Navbar, Home, SocialLinks, About, Portfolio, Experience, Contact, Blog}
