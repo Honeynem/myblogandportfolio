@@ -4,6 +4,7 @@ import Ui2 from '../assets/portfolio/ui2.png'
 import Ui3 from '../assets/portfolio/ui3.png'
 import Ui4 from '../assets/portfolio/ui4.png'
 import Ui5 from '../assets/portfolio/ui5.png'
+import Ui6 from '../assets/portfolio/ui6.png'
 
 const Portfolio = () => {
     
