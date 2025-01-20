@@ -14,11 +14,6 @@ const Portfolio = () => {
             link: ()=>{window.open('https://github.com/Honeynem/How-to-create-header-in-HTML-and-CSS.git')}
         },
         {
-            id: 2,
-            src: Ui2,
-            link: ()=>{window.open('https://github.com/Honeynem/How-to-create-footer-in-HTML-and-CSS.git')}
-        },
-        {
             id: 3,
             src: Ui3,
             link: ()=>{window.open('https://github.com/Honeynem/How-to-create-sidebar-in-HTML-and-CSS.git')}
@@ -32,6 +27,11 @@ const Portfolio = () => {
             id: 5,
             src: Ui5,
             link: ()=>{window.open('https://github.com/Honeynem/How-to-create-wabpage-with-bootstrap.git')}
+        },
+        {
+            id: 6,
+            src: Ui6,
+            link: ()=>{window.open('https://dribbble.com/shots/24615286-ShoeShop-UI-SneakZ?utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share')}
         },
     ]
   return (
