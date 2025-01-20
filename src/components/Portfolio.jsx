@@ -35,10 +35,10 @@ const Portfolio = () => {
         },
     ]
   return (
-    <div name='portfolio' className='bg-[#DFF5E3] from-black to-gray-800 w-full text-white  min-h-screen'>
+    <div name='portfolio' className='bg-[#DFF5E3] from-black to-gray-800 w-full text-[#2C3E50] min-h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full overflow-y-auto'>
         <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
+            <p className='text-4xl font-bold inline border-b-4 border-[#2C3E50]'>Portfolio</p>
             <p className='py-6'>Chekout some of my works here!</p>
         </div>
 
@@ -50,7 +50,7 @@ const Portfolio = () => {
                 <div className='flex justify-center items-center'>
                 {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button> */}
                     
-                <button onClick={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                <button onClick={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>View Code Or Design</button>
                     
                 </div>
             </div>
