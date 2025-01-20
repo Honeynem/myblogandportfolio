@@ -5,6 +5,7 @@ import Ui3 from '../assets/portfolio/ui3.png'
 import Ui4 from '../assets/portfolio/ui4.png'
 import Ui5 from '../assets/portfolio/ui5.png'
 import Ui6 from '../assets/portfolio/ui6.png'
+import Ui7 from '../assets/portfolio/ui7.png'
 
 const Portfolio = () => {
     
@@ -32,6 +33,11 @@ const Portfolio = () => {
         {
             id: 6,
             src: Ui6,
+            link: ()=>{window.open('https://dribbble.com/shots/24615286-ShoeShop-UI-SneakZ?utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share')}
+        },
+        {
+            id: 7,
+            src: Ui7,
             link: ()=>{window.open('https://dribbble.com/shots/24615286-ShoeShop-UI-SneakZ?utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share')}
         },
     ]
