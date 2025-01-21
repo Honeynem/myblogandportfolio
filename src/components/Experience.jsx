@@ -4,9 +4,8 @@ import cssImage from '../assets/cssImage.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
-import next from '../assets/nextjs.png'
-import typescript from '../assets/typescript.png'
 import gitHub from '../assets/github.png'
+import figma from '../assets/figma.png'
 
 const Experience = () => {
     const techs = [
@@ -41,21 +40,15 @@ const Experience = () => {
             style : 'shadow-sky-400'
         },
         {
-            id : 6,
-            src : next,
-            title : 'Next.js',
-            style : 'shadow-white'
-        },
-        {
-            id : 7,
-            src : typescript,
-            title : 'TypeScript',
-            style : 'shadow-blue-500'
-        },
-        {
             id : 8,
             src : gitHub,
             title : 'Github',
+            style : 'shadow-gray-400'
+        },
+        {
+            id : 9,
+            src : figma,
+            title : 'Figma',
             style : 'shadow-gray-400'
         },
 
