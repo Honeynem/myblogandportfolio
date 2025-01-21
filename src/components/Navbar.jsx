@@ -33,7 +33,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-[#2C3E50] bg-gradient-to-b from-[#DFF5E3] via-[#BEE8CD] to-[#A6DDBE] fixed z-50'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-[#2C3E50] bg-gradient-to-b from-[#DFF5E3] via-[#BEE8CD] to-[#A6DDBE] fixed top-0 left-0 right-0 z-50'>
         <div>
             <h1 className='text-5xl font-signature ml-2 '>Honey</h1>
         </div>
