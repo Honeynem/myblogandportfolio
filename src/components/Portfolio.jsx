@@ -6,6 +6,7 @@ import Ui4 from '../assets/portfolio/ui4.png'
 import Ui5 from '../assets/portfolio/ui5.png'
 import Ui6 from '../assets/portfolio/ui6.png'
 import Ui7 from '../assets/portfolio/ui7.png'
+import Ui8 from '../assets/portfolio/ui8.png'
 
 const Portfolio = () => {
     
@@ -39,6 +40,11 @@ const Portfolio = () => {
             id: 7,
             src: Ui7,
             link: ()=>{window.open('https://dribbble.com/shots/24615286-ShoeShop-UI-SneakZ?utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=HoneyNemany&utm_content=ShoeShop%20UI-SneakZ&utm_medium=Social_Share')}
+        },
+        {
+            id: 8,
+            src: Ui8,
+            link: ()=>{window.open('https://www.behance.net/gallery/210386273/UIUX-case-study-for-a-forum-app')}
         },
     ]
   return (
