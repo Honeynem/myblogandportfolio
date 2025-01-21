@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#DFF5E3] from-black to-gray-800 p-4 text-white'>
+    <div name='contact' className='w-full h-screen bg-[#DFF5E3] from-black to-gray-800 p-4 text-[#2C3E50]'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full overflow-y-auto'>
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
@@ -14,18 +14,18 @@ const Contact = () => {
                 type="text" 
                 name='name' 
                 placeholder='Enter Your Name' 
-                className='p-2 bg-transparent text-white border-2 rounded-md focus:outline-none' />
+                className='p-2 bg-transparent text-[#2C3E50] border-2 rounded-md focus:outline-none' />
                 <input 
                 type="text" 
                 name='email' 
                 placeholder='Enter Your Email'
-                className='my-4 p-2 bg-transparent text-white border-2 rounded-md focus:outline-none' />
+                className='my-4 p-2 bg-transparent text-[#2C3E50] border-2 rounded-md focus:outline-none' />
                 <textarea 
                 name="message" 
                 placeholder='Enter Your Message' 
                 rows="10" 
-                className='p-2 bg-transparent text-white border-2 rounded-md focus:outline-none'></textarea>
-                <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Submit</button>
+                className='p-2 bg-transparent text-[#2C3E50] border-2 rounded-md focus:outline-none'></textarea>
+                <button className="text-white bg-gradient-to-r from-[#FFA07A] to-[#FFB6C1] px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Submit</button>
             </form>
 
         </div>
