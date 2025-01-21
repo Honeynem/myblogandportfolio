@@ -49,7 +49,7 @@ const Experience = () => {
             id : 9,
             src : figma,
             title : 'Figma',
-            style : 'shadow-gray-400'
+            style : 'shadow-green-400'
         },
 
     ]
@@ -111,7 +111,7 @@ const Experience = () => {
                     <p className="text-3xl font-bold inline border-b-4 border-gray-500">Work History</p>
                     <div className="mt-8 grid gap-8">
                         {works.map(({ id, title, company, duration, description, link }) => (
-                            <div key={id} className="shadow-lg rounded-lg bg-white p-6">
+                            <div key={id} className="shadow-lg rounded-lg bg-[#DFF5E3] p-6">
                                 <h3 className="text-2xl font-semibold">{title}</h3>
                                 <p className="text-gray-600">{company}</p>
                                 <p className="text-gray-500">{duration}</p>
