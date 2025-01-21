@@ -14,7 +14,7 @@ const Contact = () => {
                 type="text" 
                 name='name' 
                 placeholder='Enter Your Name' 
-                className='p-2 bg-transparent text-[#2C3E50] border-2 rounded-md focus:outline-none' />
+                className='p-2 bg-transparent text-[#2C3E50] border-2 border-[#2C3E50] rounded-md focus:outline-none' />
                 <input 
                 type="text" 
                 name='email' 
