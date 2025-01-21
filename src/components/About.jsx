@@ -8,7 +8,7 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
 
-        <p className='mt-20 text-xl'>Although I really don’t want to have an "About Me" section (it always feels a bit too self-absorbed), I guess I have no choice but to share a bit about myself! 
+        <p className='text-xl'>Although I really don’t want to have an "About Me" section (it always feels a bit too self-absorbed), I guess I have no choice but to share a bit about myself! 
         </p>
         <br />
         <p className='text-xl'>
