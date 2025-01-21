@@ -53,6 +53,42 @@ const Experience = () => {
         },
 
     ]
+    const works = [
+        {
+            id: 1,
+            title: 'ًWordpress developer',
+            company: 'Fact Coins-Trading online Magazine',
+            duration: 'March 2022 - May 2022',
+            description: 'Worked on creating responsive web designs and improving user experience.',
+            link: 'https://factcoins.com'
+        },
+        {
+            id: 2,
+            title: 'UI Designer',
+            company: 'Setare Online Magazine',
+            duration: 'Oct 2023 - March 2024',
+            description: 'Redesigned complete web pages while learning and utilizing the Bricks theme in WordPress to create optimized and modern layouts.',
+            link: 'https://setare.com'
+        },
+        {
+            id: 3,
+            title: 'UI/UX Designer- Wix Developer',
+            company: 'Embark Potential- Online Psychology and Behavioral Suppport Services',
+            duration: 'Nov 2024 - Jan 2025',
+            description: 'Comprehensive course on user experience design.',
+            link: 'https://www.embarkpotential.com.au'
+        },
+        {
+            id: 4,
+            title: 'Course: Google UX Design',
+            company: 'Google',
+            duration: 'Completed Jan 2025',
+            description: 'Comprehensive course on user experience design.',
+            link: 'https://coursera.org/google-ux'
+        }
+    ];
+
+
   return (
     <div name='experience' className='bg-[#DFF5E3] from-gray-800 to-black min-h-screen w-full text-[#2C3E50]'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full overflow-y-auto'>
@@ -71,6 +107,22 @@ const Experience = () => {
                 ))
             }
         </div>
+        <div className="mt-12">
+                    <p className="text-3xl font-bold inline border-b-4 border-gray-500">Work History</p>
+                    <div className="mt-8 grid gap-8">
+                        {works.map(({ id, title, company, duration, description, link }) => (
+                            <div key={id} className="shadow-lg rounded-lg bg-white p-6">
+                                <h3 className="text-2xl font-semibold">{title}</h3>
+                                <p className="text-gray-600">{company}</p>
+                                <p className="text-gray-500">{duration}</p>
+                                <p className="text-gray-700 mt-4">{description}</p>
+                                <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-4 block">
+                                    Learn more
+                                </a>
+                            </div>
+                        ))}
+                    </div>
+                </div>
       </div>
     </div>
   )
