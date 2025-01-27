@@ -100,7 +100,7 @@ const Experience = () => {
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 py-8 text-center sm:px-0'>
             {
                 techs.map(({id, src, title, style})=> (
-                    <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-gradient-to-r from-[#FFA07A] to-[#FFB6C1] text-white ${style}`}>
+                    <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg bg-gradient-to-r from-[#DFF5E3] to-[#FFE8F1] text-[#4D6654] ${style}`}>
                     <img src={src} alt="" className='w-20 mx-auto'/>
                     <p className='mt-4'>{title}</p>
                     </div>
@@ -111,7 +111,7 @@ const Experience = () => {
                     <p className="text-3xl font-bold inline border-b-4 border-gray-600">Work History</p>
                     <div className="mt-8 grid gap-8">
                         {works.map(({ id, title, company, duration, description, link }) => (
-                            <div key={id} className="shadow-lg shadow-gray-600 rounded-lg bg-[#DFF5E3] p-6 transform transition-transform duration-500 hover:scale-105 z-10 bg-gradient-to-r from-[#FFA07A] to-[#FFB6C1] text-white">
+                            <div key={id} className="shadow-lg shadow-gray-600 rounded-lg bg-[#DFF5E3] p-6 transform transition-transform duration-500 hover:scale-105 z-10 bg-gradient-to-r from-[#DFF5E3] to-[#FFE8F1] text-[#4D6654]">
                                 <h3 className="text-2xl font-semibold">{title}</h3>
                                 <p className="text-gray-600">{company}</p>
                                 <p className="text-gray-500">{duration}</p>
